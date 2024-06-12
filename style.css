@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+.header{
+  padding: 15px 50px;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  p{
+    font-weight: 700;
+  }
+}
+
+.sign_in {
+  background-color: #4C5FD5;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin-left: 20px;
+  border: #4C5FD5;
+  font-weight: 700;
+
+}
+
+.submit{
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.helper {
+  background-color: #dadbf1;
+  font-size: 40px;
+  padding: 10%;
+}
+
+#divBusca{
+  background-color:#fff;
+  border:solid 1px;
+  border-radius: 5px;
+  width:300px;
+  align-items: baseline;
+  display: flex;
+  border: #fff;
+
+  img{
+    height: 15px;
+  }
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+}
